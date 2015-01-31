@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="24" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="C2" tilewidth="32" tileheight="32">
+  <image source="C2.png" trans="ff00ff" width="96" height="96"/>
+  <terraintypes>
+   <terrain name="新地形" tile="-1"/>
+  </terraintypes>
+ </tileset>
+ <layer name="map" width="32" height="24">
+  <data encoding="base64" compression="zlib">
+   eJztycsJACAQxND1r/037FjCwF6EPMgpEQCAp6iqmvmydDXUNF+WpbY65gMA/OUCNvoAWw==
+  </data>
+ </layer>
+ <objectgroup name="object" width="32" height="24">
+  <object name="car_body" x="96" y="192">
+   <polygon points="0,0 32,32 192,32 224,0 192,-32 128,-64 64,-64 0,-32"/>
+  </object>
+  <object name="car_wheel_1" x="96" y="192" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object name="car_wheel_2" x="256" y="192" width="64" height="64">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <layer name="map2" width="32" height="24" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAC8GDAAAAQ==
+  </data>
+ </layer>
+ <layer name="map3" width="32" height="24" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAC8GDAAAAQ==
+  </data>
+ </layer>
+</map>

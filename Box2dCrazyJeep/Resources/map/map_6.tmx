@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="45" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="blocks" tilewidth="32" tileheight="32">
+  <image source="blocks.png" width="64" height="64"/>
+ </tileset>
+ <layer name="块层 1" width="45" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzrkNADAMxDDn2X/meAUjxTUkoF5VpK1upyeGTnfTEwAAwJcHhoQACw==
+  </data>
+ </layer>
+ <objectgroup name="line" width="45" height="20">
+  <object x="0" y="384">
+   <polyline points="0,0 64,-32 128,-64 192,-96 256,-128 320,-160 384,-192 448,-224 515,-253 551,-254 578,-236 576,-192 576,128 608,160 640,160 736,160 672,-288 704,-320 737,-346 768,-352 799,-347 831,-327 864,-320 902,-326 929,-346 967,-342 992,-320 1025,-317 1056,-320 1088,-320 1120,-320 1152,-320 1200,-330 1237,-342 1300,-356 1373,-380 1440,256"/>
+  </object>
+ </objectgroup>
+</map>
